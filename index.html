@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>welcome to My Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/Logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+          <li><a href="signup.html">SIGN UP</a></li>
+          <li><a href="signin.html">SIGN IN</a></li>
+
+
+        </ul>
+      </div>
+
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>Computer Science Students</h1>
+      <p>
+        “We need to understand that if we all work on inclusion together, it's going to be faster,<br> broader, better,
+        and more thorough than anything we can do on our own.” -
+      </p>
+      <a href="" class="hero-btn">Visit Us To Know More</a>
+
+    </div>
+
+
+  </section>
+
+  <!------- Course----->
+  <section class="students">
+    <h1>Students Details</h1>
+    <p>Students, Strive for Excellence!</p>
+    <div class="row">
+      <div class="students-col">
+        <h3>Srijan Pandey</h3>
+        <p>Srijan Is Brilliant Student</p>
+      </div>
+      <div class="students-col">
+        <h3>Mamata Ghimire</h3>
+        <p>mamata Is Brilliant Student</p>
+      </div>
+      <div class="students-col">
+        <h3>Ashbin Malla</h3>
+        <p>ashbin Is Brilliant Student</p>
+      </div>
+      <div class="students-col">
+        <h3>Prajons Panthi</h3>
+        <p>prajons Is Brilliant Student</p>
+      </div>
+      <div class="students-col">
+        <h3>Bidhan Khanal</h3>
+        <p>bidhan Is Brilliant Student</p>
+      </div>
+
+    </div>
+
+    <!------ campus ------>
+
+  </section>
+  <section class="campus">
+    <h1>Our Campus</h1>
+    <p>Nabin Audhyogic Kadar Bahadur Secondary School</p>
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/campus.png">
+        <div class="layer">
+          <h3>BUTWAL</h3>
+        </div>
+
+      </div>
+      <div class="campus-col">
+        <img src="images/campus.png">
+        <div class="layer">
+          <h3>Devinagar</h3>
+        </div>
+
+      </div>
+      <div class="campus-col">
+        <img src="images/campus.png">
+        <div class="layer">
+          <h3>BUDDHANAGR</h3>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+  <!------ Facilities ----->
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.png">
+        <h3>Library</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+      </div>
+      <div class="facilities-col">
+        <img src="images/playground.png">
+        <h3>Playground</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+      </div>
+      <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h3>Lets Enjoy With Healty Foods</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+  <!----- Call To Action ---->
+  <section class="cta">
+    <h1>Enroll For Contact with Us</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+
+  </section>
+
+
+
+
+
+  <!------JavaScript for toggle menu------->
+  <script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+
+
+  </script>
+
+
+
+</body>
+
+</html>
